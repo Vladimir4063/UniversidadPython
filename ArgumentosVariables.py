@@ -25,3 +25,8 @@ def sumarValores(*valor) -> int:
     return sumaTotal
 
 print("Suma total de valores: " + str(sumarValores(23,23,12,45,64)))
+
+def multiplicaValores(*valor) -> int:
+    sumaTotalMulti = 0
+    for valores in valor:
+        valores = valores
