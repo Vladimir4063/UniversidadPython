@@ -29,4 +29,8 @@ print("Suma total de valores: " + str(sumarValores(23,23,12,45,64)))
 def multiplicaValores(*valor) -> int:
     sumaTotalMulti = 0
     for valores in valor:
-        valores = valores
+        sumaTotalMulti= valores * valor[0]
+        print(sumaTotalMulti)
+
+print("Ingrese el primer parametro como numero multiplo. Apartir del segundo parametro, seran numeros a multiplicar por el primero")
+multiplicaValores(3, 2, 4, 2, 1, 2)
