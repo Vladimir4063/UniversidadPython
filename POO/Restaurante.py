@@ -27,7 +27,7 @@ class Restaurant:
             self.ordenes[numero] = items
         else:
             self.ordenes[numero].append(items)
-            
+
     def imprimir_menu(self):
         print(self.menu)
 
